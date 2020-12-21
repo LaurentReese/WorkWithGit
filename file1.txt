@@ -1,3 +1,6 @@
  on lun. 21 déc. 2020 13:16:36 CET one line on the master branch
 second line on the master branch
 third line on the master branch
+
+after git init;git clone <HTTPPATH>;cd PlayWithGit
+BLA BLA bla bla still on master
