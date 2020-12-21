@@ -4,3 +4,7 @@ third line on the master branch
 
 after git init;git clone <HTTPPATH>;cd PlayWithGit
 BLA BLA bla bla still on master
+
+on branch br1 : bla bla bla 2
+bla bla laurent laurent 3333 wonderful life
+
