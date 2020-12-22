@@ -1,0 +1,148 @@
+Je sais déjà tout ça mais je veux me rafraichir la mémoire
+
+==== Création projet et début des travaux
+1) Créer un projet avec github, cela crée un repository/directory
+
+2) Git clone avec le lien HTTP donné par github
+git clone https://github.com/LaurentReese/PlayWithGit.git
+
+3) cd PlayWithGit
+
+4) Création de fichiers
+
+5) git add .
+git commit
+git push
+
+6) Création d'une branche br1 depuis github
+
+7) Dans le répertoire PlayWithGit, faire :
+git branch br1
+git branch
+git switch br1
+git branch
+éditer et modifier des fichiers
+puis
+git diff
+git add .
+git commit
+git push origin br1 (la première fois)
+faire un blame sur le nom du fichier dans github ou git blame <file_name> en ligne de commande
+
+8) Pour merger br1 dans master, faire :
+git branch master
+git merge origin/br1
+==> résoudre les conflits
+git add . (. doit être à la racine du répertoire courant du projet)
+git commit
+git push
+
+9) Cloner une branche
+git clone --branch br1 https://github.com/LaurentReese/PlayWithGit.git
+
+10) Merger la master dans la br1 :
+git branch doit nous dire qu'on est bien dans br1
+Puis faire 
+git merge origin/master
+git add .
+git commit
+git push
+
+11) Reprise de la branche br1 pour continuation du travail
+
+12) Création d'une seconde branche
+Puis travail dans la seconde branche
+d'abord cloner la dernière master
+git branch br2
+git checkout br2
+git add .
+git commit
+git push --set-upstream origin br2
+
+12') Fetch de tous ceux qui travaillent dans la master
+(faire des modifs sur la master dans une autre session, les pusher)
+git fetch
+git merge
+et je vois les modifs qui sont descendus chez moi
+git pull == git fetch + git merge
+
+13) Fetch de toutes les branches dans la master
+(si je n'étais pas sur la master
+git switch master
+git checkout
+)
+git merge br1
+==> résoudre les conflits
+git merge br2
+git diff
+git add .
+git commit
+git push
+
+
+13') sur une autre session (branche master), je peux récupérer ce travail avec un 
+git checkout (mais dans ce cas là mes modifs courantes sont annulées)
+ou
+git pull (équivalent de git fetch + git merge) qui va prendre mes modifs courantes plus celles des autres bossant sur le master
+
+14) Reprise de la branche master pour continuation du travail
+cd ..
+rm -rf PlayWithGit
+git clone https://github.com/LaurentReese/PlayWithGit.git
+cd PlayWithGit
+
+15) Reprise de la branche br1 pour continuation du travail
+git switch br1, faire verif et si ce n'est pas bon faire :
+(
+cd ..
+rm -rf PlayWithGit
+git clone --branch br1 https://github.com/LaurentReese/PlayWithGit.git
+cd PlayWithGit
+)
+
+16) Fetch de toutes les branches dans la br2
+git switch br2
+si tu sais que d'autres ont bossé sur br2
+git fetch
+git merge
+puis ...
+git merge origin/master
+git merge br1
+==> résoudre conflits
+git commit
+git push
+
+17) répercuter br2 dans master
+cd ..
+rm -rf PlayWithGit
+git clone br1 https://github.com/LaurentReese/PlayWithGit.git
+cd PlayWithGit
+git merge origin/br2
+git add .
+git commit
+git push
+
+
+========= A tout moment =========
+git diff donne le travail fait 
+git checkout . revient en arrière sur les modifs faite
+git checkout <filename> revient en arrière sur les modifs sur ce fichier (et sur ma branche courante)
+
+========= A tout moment =========
+Si le git push me rejette, c'est que kkun a travaillé sur la même branche mais que je n'ai pas pris ses modifs.
+Dans ce cas faire
+git pull
+==> résoudre les conflits
+puis
+git add.
+git commit
+git push
+
+========= A tout moment =========
+git checkout va vérifier mes modifs en cours, et me donner des diff
+git checkout <filename> va annuler mes modifs en cours
+
+========= A tout moment =========
+Dans github, faire blame, puis history pour voir l'historique
+
+
