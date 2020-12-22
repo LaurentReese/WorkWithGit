@@ -23,3 +23,6 @@ modifs master parallel1
 modifs master parallel2
 modifs master parallel2
 modifs master parallel2
+etape 14 de mon fichier gitlearnings.txt
+reprise de la branche master pour continuation du travail
+
