@@ -115,7 +115,7 @@ git push
 17) répercuter br2 dans master
 cd ..
 rm -rf PlayWithGit
-git clone br1 https://github.com/LaurentReese/PlayWithGit.git
+git clone https://github.com/LaurentReese/PlayWithGit.git
 cd PlayWithGit
 git merge origin/br2
 git add .
