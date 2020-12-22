@@ -9,3 +9,6 @@ This so wonderful, wonderful life
 travail sur master avant 2ème travail sur br1 et br2
 travail sur master avant 2ème travail sur br1 et br2
 travail sur master avant 2ème travail sur br1 et br2
+on branch br1, after the merge from master
+on branch br1, after the merge from master
+on branch br1, after the merge from master
