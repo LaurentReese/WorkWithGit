@@ -14,3 +14,6 @@ travail sur master avant 2ème travail sur br1 et br2
 on branch br1, after the merge from master
 on branch br1, after the merge from master
 on branch br1, after the merge from master
+on branch br2 : branch2 branch2 branch2
+on branch br2 : branch2 branch2 branch2
+on branch br2 : branch2 branch2 branch2
