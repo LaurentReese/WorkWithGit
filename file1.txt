@@ -8,3 +8,6 @@ BLA BLA bla bla still on master
 on branch br1 : bla bla bla 2
 bla bla laurent laurent 3333 wonderful life
 
+on branch br2 : branch2 branch2 branch2
+on branch br2 : branch2 branch2 branch2
+on branch br2 : branch2 branch2 branch2

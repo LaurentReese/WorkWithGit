@@ -6,3 +6,6 @@ another line on the master branch, after the br1 creation
 br1 : jklqdfnklqdfqsdjklfqsdklmfjklqsdf
 br1 : kljqsdfjklqfjlqsfjklsdjflfj sdlfj Laurent
 This so wonderful, wonderful life
+on branch br2 : branch2 branch2 branch2
+on branch br2 : branch2 branch2 branch2
+on branch br2 : branch2 branch2 branch2
