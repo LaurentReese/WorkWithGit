@@ -17,3 +17,6 @@ on branch br1, after the merge from master
 on branch br2 : branch2 branch2 branch2
 on branch br2 : branch2 branch2 branch2
 on branch br2 : branch2 branch2 branch2
+modifs master parallel1
+modifs master parallel1
+modifs master parallel1
