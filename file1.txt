@@ -26,3 +26,8 @@ modifs master parallel2
 etape 14 de mon fichier gitlearnings.txt
 reprise de la branche master pour continuation du travail
 
+etape 15, Reprise de la branche br1 pour continuation du travail
+etape 15, Reprise de la branche br1 pour continuation du travail
+etape 15, Reprise de la branche br1 pour continuation du travail
+etape 15, Reprise de la branche br1 pour continuation du travail
+
