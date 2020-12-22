@@ -9,3 +9,6 @@ This so wonderful, wonderful life
 on branch br1, after the merge from master
 on branch br1, after the merge from master
 on branch br1, after the merge from master
+etape 15, Reprise de la branche br1 pour continuation du travail
+etape 15, Reprise de la branche br1 pour continuation du travail
+etape 15, Reprise de la branche br1 pour continuation du travail
