@@ -145,4 +145,16 @@ git checkout <filename> va annuler mes modifs en cours
 ========= A tout moment =========
 Dans github, faire blame, puis history pour voir l'historique
 
-
+========= Pour créer un nouveau projet au maximum en ligne de commande ====
+Créer le repository depuis le site github (apparemment on ne peut pas le faire depuis une ligne de commande)
+Du coup on se retrouve avec une référence de repository du genre https://github.com/LaurentReese/PlayWithGOLANG.git
+Créer un répertoire de travail, et ainsi de suite...
+mkdir PlayWithGOLANG
+cd PlayWithGOLANG
+git init
+touch README.md
+git add .
+git commit
+git branch -M main
+git remote add PlayWithGOLANG https://github.com/LaurentReese/PlayWithGOLANG.git
+git push --set-upstream PlayWithGOLANG main
