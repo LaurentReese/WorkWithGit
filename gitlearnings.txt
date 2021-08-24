@@ -158,3 +158,14 @@ git commit
 git branch -M main
 git remote add PlayWithGOLANG https://github.com/LaurentReese/PlayWithGOLANG.git
 git push --set-upstream PlayWithGOLANG main
+
+modif de file1.txt
+modif de file2.txt
+ajout d'un tag : git tag -a v1.0.0 -m "un tag v1.0.0 est posé"
+"push" du tag : git push origin v1.0.0
+git add .
+git commit
+git push
+ajout d'un deuxième tag : git tag -a v1.0.1 -m "un tag v1.0.1 est posé après le tag v1.0.0"
+"push" du tag : git push origin v1.0.1
+
