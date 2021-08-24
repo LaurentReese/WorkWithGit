@@ -159,6 +159,7 @@ git branch -M main
 git remote add PlayWithGOLANG https://github.com/LaurentReese/PlayWithGOLANG.git
 git push --set-upstream PlayWithGOLANG main
 
+Pour les tags, voir https://blog.goovy.io/commandes-git-utiles/
 modif de file1.txt
 modif de file2.txt
 ajout d'un tag : git tag -a v1.0.0 -m "un tag v1.0.0 est posé"
