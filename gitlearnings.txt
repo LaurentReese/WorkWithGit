@@ -159,7 +159,7 @@ git branch -M main
 git remote add PlayWithGOLANG https://github.com/LaurentReese/PlayWithGOLANG.git
 git push --set-upstream PlayWithGOLANG main
 
-Pour les tags, voir https://blog.goovy.io/commandes-git-utiles/
+IMPORTANT : Pour les tags, voir https://blog.goovy.io/commandes-git-utiles/
 modif de file1.txt
 modif de file2.txt
 ajout d'un tag : git tag -a v1.0.0 -m "un tag v1.0.0 est posé"
@@ -169,4 +169,14 @@ git commit
 git push
 ajout d'un deuxième tag : git tag -a v1.0.1 -m "un tag v1.0.1 est posé après le tag v1.0.0"
 "push" du tag : git push origin v1.0.1
-
+re-modif de file1.txt et file2.txt
+git add .
+git commit
+git push
+ajout d'un tag v1.0.2
+push du tag v1.0.2
+git clone https://github.com/LaurentReese/WorkWithGit.git
+se met sur le dernier tag (v1.0.2)
+faire cd WorkWithGit; git checkout v1.0.1 pour se mettre sur le tag v1.0.1, et donc avant v1.0.2
+Sachant qu'on peut aussi créer un branche correspondant à un tag, avec : git checkout -b branch-v1.0.1 v1.0.1
+Et on pourra plus tard travailler sur la branche en question (v1.0.1) et la faire évoluer
