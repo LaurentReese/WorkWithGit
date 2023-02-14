@@ -160,10 +160,10 @@ git remote add PlayWithGOLANG https://github.com/LaurentReese/PlayWithGOLANG.git
 git push --set-upstream PlayWithGOLANG main
 
 IMPORTANT : Pour les tags, voir https://blog.goovy.io/commandes-git-utiles/
-modif de file1.txt
-modif de file2.txt
 ajout d'un tag : git tag -a v1.0.0 -m "un tag v1.0.0 est posé"
 "push" du tag : git push origin v1.0.0
+git tag me donne la liste des tags posés
+Le tag est posé, je peux faire des modifs sur file1.txt et file2.txt, que je sauve
 git add .
 git commit
 git push
