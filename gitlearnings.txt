@@ -180,3 +180,36 @@ se met sur le dernier tag (v1.0.2)
 faire cd WorkWithGit; git checkout v1.0.1 pour se mettre sur le tag v1.0.1, et donc avant v1.0.2
 Sachant qu'on peut aussi créer un branche correspondant à un tag, avec : git checkout -b branch-v1.0.1 v1.0.1
 Et on pourra plus tard travailler sur la branche en question (v1.0.1) et la faire évoluer
+
+========= Résumé pour les tags =============================================================
+ajout d'un tag : 
+D'abord se mettre sur mon projet git et la branche où je veux poser un tag
+Vérifier la branche et le status en faisant 
+
+> git status
+
+Puis poser en tag en faisant :
+
+> git tag -a MonTagQueJaime -m "un tag est posé, voici mes commentaires blabla"
+
+Faire un "push" du tag, pour le partager avec les autres :
+
+> git push origin MonTagQueJaime
+
+Liste des tags (je dois retrouver MonTagQueJaime)
+> git tag
+
+Plus tard, pour reprendre à partir d'un tag
+
+> git clone <MonProjet.git>
+> cd <MonProjet>
+
+Liste des tags (je dois retrouver MonTagQueJaime)
+> git tag
+
+Liste des tags avec commentaires (je dois retrouver MonTagQueJaime)
+> git tag -n
+
+retravailler à partir d'un tag :
+> git checkout MonTagQueJaime
+======================================================================
