@@ -188,7 +188,7 @@ Vérifier la branche et le status en faisant
 
 > git status
 
-Puis poser en tag en faisant :
+Puis poser un tag en faisant :
 
 > git tag -a MonTagQueJaime -m "un tag est posé, voici mes commentaires blabla"
 
